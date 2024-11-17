@@ -9,7 +9,7 @@ const clientId = '77117b46';
 
 // Función para obtener una pista aleatoria desde Jamendo
 async function fetchRandomTrack() {
-  const apiUrl = `https://api.jamendo.com/v3.0/tracks/?client_id=77117b46&format=json&limit=1&order=popularity_total`;
+  const apiUrl = `https://api.jamendo.com/v3.0/tracks/?client_id=1b7d721032f2f528f01968be9df168da&format=json&limit=1&order=popularity_total`;
   
   try {
     const response = await fetch(apiUrl);
