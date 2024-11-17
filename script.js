@@ -5,7 +5,7 @@ let audio = null;
 let isPlaying = false;
 
 // Tu Client ID de la API de Jamendo
-const clientId = 'YOUR_CLIENT_ID';
+const clientId = '1b7d721032f2f528f01968be9df168da';
 
 // Función para obtener una pista aleatoria desde Jamendo
 async function fetchRandomTrack() {
