@@ -5,11 +5,11 @@ let audio = null;
 let isPlaying = false;
 
 // Tu Client ID de la API de Jamendo
-const clientId = '7117eacfe2354ee1bf926c2684ece003';
+const clientId = '77117b46';
 
 // Función para obtener una pista aleatoria desde Jamendo
 async function fetchRandomTrack() {
-  const apiUrl = `https://api.spotify.com/v1/tracks/7117eacfe2354ee1bf926c2684ece003`;
+  const apiUrl = `https://api.jamendo.com/v3.0/tracks/?client_id=77117b46&format=json&limit=1&order=popularity_total`;
   
   try {
     const response = await fetch(apiUrl);
