@@ -1,5 +1,3 @@
-document.getElementById('trackTitle').textContent = track.name;
-
 const playPauseBtn = document.getElementById('playPauseBtn');
 let audio = null;
 let isPlaying = false;
